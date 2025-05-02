@@ -1,0 +1,93 @@
+* {
+    width: 100%;
+    padding: 5px;
+}
+
+body {
+    background-color: #f3efbe;
+}
+
+.container {
+    max-width: 500px; 
+    margin: auto;
+    /*border: 2px solid black;*/
+}
+
+
+/* импортировать */
+@font-face {
+    font-family: 'Lobelia';
+    src: url('fonts/Lobelia.ttf');
+}
+
+@font-face {
+    font-family: 'Insula';
+    src: url('fonts/Insula.ttf');
+}
+
+@font-face {
+    font-family: 'AngrybirdsRegular';
+    src: url('fonts/AngrybirdsRegular.ttf');
+}
+
+@font-face {
+    font-family: 'AngrybirdsRegular';
+    src: url('fonts/AngrybirdsRegular.ttf');
+}
+
+
+/* применить */
+#b1{
+    font-family: 'Lobelia';
+    font-size: 70%;
+}
+
+#b2{
+    font-family: 'Insula';
+    font-size: 80%;
+    text-align: justify;
+}
+
+#b3{
+    font-family: 'AngrybirdsRegular';
+    text-align: right;
+}
+
+table{
+    font-family: 'AngrybirdsRegular';
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li a {    
+    color: black;
+    text-decoration: none;
+}
+
+
+table td:first-child {
+    font-weight: bold; 
+}
+
+
+h1,h2,h3 {
+    width: max-content;
+}
+
+img, h1, h2, h3 {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+td {
+    width: 50%;
+}
+
+
+span {
+    font-weight: bold;
+}
