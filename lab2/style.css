@@ -1,0 +1,159 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: rgb(52, 206, 142);
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+#vibrateButton {
+  margin: 50px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  animation: vibrate 0.1s infinite; 
+}
+
+#vibrateButton:hover {
+  animation: none; 
+  background-color: green; 
+}
+
+@keyframes vibrate {
+  0%, 100% {
+      transform: translateX(-2px);
+  }
+  50% {
+      transform: translateX(2px);
+  }
+}
+
+#importantLink {
+  font-size: 20px;
+  text-decoration: none; 
+  color: black; 
+}
+
+#importantLink:hover {
+  color: green; 
+  position: relative; 
+}
+
+#importantLink:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; 
+  left: 50%; 
+  width: 0; 
+  height: 2px; 
+  background-color: green; 
+  animation: underline 0.5s forwards; 
+}
+
+@keyframes underline {
+  0% {
+      width: 0; 
+      left: 50%; 
+  }
+  100% {
+      width: 100%;
+      left: 0; 
+  }
+}
+
+
+
+#Myball {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+@keyframes bounce {
+  0% {
+      bottom: 500px; 
+      height: 20px; 
+  }
+  9% {    
+    height: 20px;
+  }
+  10% {
+      bottom: 150px; 
+      height: 10px;
+  }
+  11% {    
+    height: 20px;
+  } 
+  20% {
+      bottom: 400px;
+      height: 20px;
+  }
+  29% {    
+    height: 20px;
+  }
+  30% {
+      bottom: 120px; 
+      height: 14px;
+  }
+  31% {    
+    height: 20px;
+  }
+  40% {
+      bottom: 300px; 
+      height: 20px;
+  }
+  49% {    
+    height: 20px;
+  }
+  50% {
+      bottom: 130px;
+      height: 17px;
+  }
+  51% {    
+    height: 20px;
+  }
+  569% {    
+    height: 20px;
+  }
+  60% {
+      bottom: 160px; 
+  }
+  70% {
+      bottom: 150px; 
+  }
+  80% {
+      bottom: 155px; 
+  }
+  90% {
+      bottom: 152px; 
+  }
+  100% {
+      bottom: 150px;
+      height: 20px;
+  }
+}
+
+#Myball {
+  animation: bounce 5s infinite;
+}
+
+
