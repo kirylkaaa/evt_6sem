@@ -34,7 +34,7 @@ html {
 }
 
 .subrow_1, .subrow_2 {
-    flex: 100%; /* Почему любое значение работает????? */
+    flex: 100%;
     display: flex;
     flex-direction: row;
 }
