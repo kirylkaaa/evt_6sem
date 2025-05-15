@@ -3,9 +3,9 @@
 ## Контактная информация
 
 *   Номер группы БГУИР: 210901
-*   Email: vadimkurb22@gmail.com
-*   Телефон: +375339999999
-*   [Deploy](https://kvaslover.github.io/EVT-6-sem/)
+*   Email: kirylherasimau@gmail.com
+*   Телефон: +375331288812
+*   [Deploy](https://kirylkaaa.github.io/evt_6sem/)
 
 ## Краткое представление
 
@@ -57,7 +57,7 @@ print ("%d" %arr[i])
 
 ## Образование
 
-*   **Средняя школа №123 г. Минска**
+*   **Гимназия №6 г. Гродно*
     *   Год окончания: 2020
 
 ## Английский язык
